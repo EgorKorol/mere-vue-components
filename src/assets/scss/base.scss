@@ -1,0 +1,51 @@
+:root {
+  --hue-default: 201; // hsl(201, 50%, 50%)
+  --hue-secondary: 32; // hsl(32, 50%, 50%)
+  --hue-error: 2; // hsl(2, 50%, 50%)
+  --hue-success: 124; // hsl(124, 50%, 50%)
+
+  --default-font-size: 16px;
+  --small-font-size: calc(var(--default-font-size) - 2px);
+  --large-font-size: calc(var(--default-font-size) + 2px);
+
+  --font-size: var(--default-font-size);
+  --hue: var(--hue-default);
+}
+
+.mere-variant-default {
+  --hue: var(--hue-default);
+}
+
+.mere-variant-error {
+  --hue: var(--hue-error);
+}
+
+.mere-variant-success {
+  --hue: var(--hue-success);
+}
+
+.mere-variant-secondary {
+  --hue: var(--hue-secondary);
+}
+
+.mere-size-default {
+  --font-size: var(--default-font-size);
+}
+
+.mere-size-large {
+  --font-size: var(--large-font-size);
+}
+
+.mere-size-small {
+  --font-size: var(--small-font-size);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  border: 0 !important;
+}
