@@ -1,0 +1,9 @@
+@mixin disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+@mixin labelGap {
+  margin-bottom: calc(var(--font-size) / 3);
+}
