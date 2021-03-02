@@ -24,7 +24,7 @@
     <ControlText
       v-if="helpText || errorText"
       :size="size"
-      :id="uniqId"
+      :id="ariaDescribedby"
       :help-text="helpText"
       :error-text="errorText"
       :error="invalid"
